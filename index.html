@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="uk" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101312">
+  <meta name="description" content="Владислав — незалежний веброзробник. Портфоліо сайтів для людей і бізнесу.">
+  <title>Владислав — дизайн і розробка сайтів</title>
+  <script>try { if (localStorage.getItem('vlad-theme') === 'light') document.documentElement.dataset.theme = 'light' } catch {}</script>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script src="ambient.js" defer></script>
+</head>
+<body id="top">
+  <div class="ambient" aria-hidden="true"><div class="ambient-ribbons"><canvas></canvas></div></div>
+  <a class="skip" href="#main">До вмісту</a>
+  <header class="wrap">
+    <a class="brand" href="#top" aria-label="Vlad.studio — на початок"><i class="star" aria-hidden="true"></i>vlad<span>.studio</span></a>
+    <nav class="glass-surface" aria-label="Головна навігація">
+      <span class="nav-lens glass-surface" aria-hidden="true"></span>
+      <a href="#works"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="6.5" width="17" height="13" rx="2.5"/><path d="M8.5 6.5V5A1.5 1.5 0 0 1 10 3.5h4A1.5 1.5 0 0 1 15.5 5v1.5M3.5 12h17"/></svg>Роботи</a>
+      <a href="#process"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Процес</a>
+      <a href="#github"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-2-13-4 16"/></svg>GitHub</a>
+    </nav>
+    <div class="tools">
+      <button class="theme glass-surface" type="button" aria-label="Увімкнути світлу тему">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.6 8.6 0 0 1 9.5 4a8.6 8.6 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="headline">
+      <div class="intro">
+        <p class="role"><span aria-hidden="true"></span> Незалежний веброзробник</p>
+        <h1 id="headline">Створюю сайти<br><em>з характером.</em></h1>
+        <p class="lead">Я Владислав. Поєдную дизайн і код, щоб ваша справа мала власне обличчя в інтернеті.</p>
+        <div class="actions"><a class="primary glass-surface" href="#works">Мої роботи <span aria-hidden="true">↓</span></a><a class="work-link glass-surface" href="#process">Як я працюю <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sculpture-frame">
+          <picture>
+            <source media="(max-width: 740px)" srcset="assets/glass-mobile.webp" type="image/webp">
+            <img class="sculpture" src="assets/glass.webp" alt="" width="900" height="900" fetchpriority="high">
+          </picture>
+        </div>
+        <span class="art-label"><b>&lt;/&gt;</b> Дизайн + код</span>
+      </div>
+    </section>
+    <div class="service-band"><div class="wrap services"><span>Вебдизайн</span><i>✳</i><span>Розробка сайтів</span><i>✳</i><span>Адаптивна верстка</span><i>✳</i><span>Лендинги</span><i>✳</i><span>Портфоліо</span></div></div>
+    <section class="wrap section" id="works" aria-labelledby="works-heading">
+      <p class="kicker">Портфоліо</p>
+      <div class="section-heading"><h2 id="works-heading">Вибрані роботи</h2><span class="count">(3 проєкти)</span></div>
+      <div class="projects">
+        <a class="project" href="https://vladyslavrecryt.github.io/photographerg/" target="_blank" rel="noopener noreferrer">
+          <div class="cover lada">
+            <picture><source media="(max-width: 740px)" srcset="assets/lada-mobile.webp" type="image/webp"><img src="assets/lada.jpg" alt="" loading="lazy" decoding="async"></picture>
+            <span class="tag">Портфоліо</span><span class="cover-brand">Лада Верес</span>
+          </div>
+          <div class="card-foot"><div><h3>Лада Верес</h3><p>Сайт київської фотографки</p></div><span class="external glass-surface" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="project" href="https://vladyslavrecryt.github.io/autoservise20/" target="_blank" rel="noopener noreferrer">
+          <div class="cover garage">
+            <picture><source media="(max-width: 740px)" srcset="assets/garage-mobile.webp" type="image/webp"><img src="assets/garage.jpg" alt="" loading="lazy" decoding="async"></picture>
+            <span class="tag">Автосервіс</span><span class="cover-brand">ГАРАЖ<span>24</span></span>
+          </div>
+          <div class="card-foot"><div><h3>Гараж 24</h3><p>Сайт автосервісу у Львові</p></div><span class="external glass-surface" aria-hidden="true">↗</span></div>
+        </a>
+        <a class="project" href="https://vladyslavrecryt.github.io/Caffee-Tuho/" target="_blank" rel="noopener noreferrer">
+          <div class="cover tykho">
+            <picture><source media="(max-width: 740px)" srcset="assets/tykho-mobile.webp" type="image/webp"><img src="assets/tykho.jpg" alt="" loading="lazy" decoding="async"></picture>
+            <span class="tag">Кав’ярня</span><span class="cover-brand">тихо.</span>
+          </div>
+          <div class="card-foot"><div><h3>тихо</h3><p>Сайт кав’ярні з власною випічкою</p></div><span class="external glass-surface" aria-hidden="true">↗</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="wrap section split" id="process" aria-labelledby="process-heading">
+      <div><p class="kicker">Процес</p><h2 id="process-heading">Як я працюю</h2></div>
+      <div class="steps">
+        <details open><summary class="glass-surface">Обговорюємо ідею</summary><p>Знайомлюся з вашою справою. Разом визначаємо, для кого створюємо сайт і що відвідувач має на ньому зробити.</p></details>
+        <details><summary class="glass-surface">Узгоджуємо дизайн</summary><p>Готую структуру сторінок і макет. Ви бачите майбутній сайт і можете запропонувати зміни до початку розробки.</p></details>
+        <details><summary class="glass-surface">Розробляю і запускаю</summary><p>Перетворюю макет на сайт, перевіряю його на телефоні й комп’ютері та допомагаю з публікацією.</p></details>
+      </div>
+    </section>
+    <section class="wrap section" id="github" aria-labelledby="github-heading">
+      <div class="profile-panel glass-surface">
+        <div><p class="kicker">GitHub</p><h2 id="github-heading">Код моїх проєктів</h2></div>
+        <a class="primary glass-surface" href="https://github.com/vladyslavrecryt?tab=repositories" target="_blank" rel="noopener noreferrer">Переглянути репозиторії <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#top"><i class="star" aria-hidden="true"></i>vlad<span>.studio</span></a><a class="back-top glass-surface" href="#top">Нагору <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
